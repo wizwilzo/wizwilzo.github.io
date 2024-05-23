@@ -64,13 +64,13 @@
 }
 
 a {
-  color: #1772d0;
+  color: #C4820E;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #FDB515;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 14px
 }
 
 strong {
@@ -89,24 +89,29 @@ strong {
   font-size: 14px;
 }
 
-h2 {
-  margin: 0;
-  font-weight: normal;
+heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+  color: #003262;
+  font-weight: 600;
 }
 
-.papertitle {
+papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
+  color: #003262;
 }
 
-.name {
-  padding-top: 20px;
-  margin: 0;
+papertitle:hover {
+  color: #3B7EA1;
+}
+
+name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  color: #003262;
+  font-weight: 600;
 }
 
 .one {
